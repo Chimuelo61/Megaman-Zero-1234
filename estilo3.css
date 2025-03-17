@@ -1,0 +1,81 @@
+body {
+    font-family: "Jersey 10", sans-serif;
+    background-image: url(Box_art3.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    position: relative;
+    left: -90px;
+    top: 350px;
+    scale: 80%;
+}
+
+
+iframe{
+    position: absolute;
+    left: 400px;
+    top: 170px;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+}
+
+button:hover{
+    scale: 1.00;
+    translate: 0 -20px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-family: "Jersey 10", sans-serif;
+        background-image: url(../MMZ-Collection-main/Backgrounds/Box_art3.webp);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    iframe{
+        position: absolute;
+        left: 420px;
+        top: 1400px;
+        position: absolute;
+        scale: 220%;
+    }
+
+    button{
+        width: 500px ;
+        height: 250px ;
+        scale:250%;
+
+        background-color: transparent;
+        border: transparent;
+    }
+    
+    
+    h1{
+        position: absolute;
+        left: 20px;
+        top: 2450px;
+        right: 800px;
+        scale: 220%;
+    }
+
+    input{
+        width: 500px ;
+        height: 250px;
+    }
+
+}
+
+
+
+
+
+

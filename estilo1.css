@@ -1,0 +1,81 @@
+body {
+    font-family: "Jersey 10", sans-serif;
+    background-image: url(Box\ Art.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    position: relative;
+    scale: 35%;
+    left: 420px;
+    top: 200px;
+}
+
+
+iframe{
+    position: absolute;
+    left: 400px;
+    top: 170px;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+}
+
+button:hover{
+    scale: 1.00;
+    translate: 0 -20px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-family: "Jersey 10", sans-serif;
+        background-image: url(Box\ Art.webp);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    iframe{
+        position: absolute;
+        left: 575px;
+        top: 1400px;
+        position: absolute;
+        scale: 220%;
+    }
+
+    button{
+        width: 500px ;
+        height: 250px ;
+        scale:250%;
+
+        background-color: transparent;
+        border: transparent;
+    }
+    
+    
+    h1{
+        position: absolute;
+        left: 20px;
+        top: 2550px;
+        right: 800px;
+        scale: 110%;
+    }
+
+    input{
+        width: 500px ;
+        height: 250px;
+    }
+
+}
+
+
+
+
+
+

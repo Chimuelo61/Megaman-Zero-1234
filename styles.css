@@ -1,0 +1,102 @@
+body {
+    font-family: "Jersey 10", sans-serif;
+    background-image: url(Collection.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.img{
+    left: 100px;
+    top: 100px;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    top: 300px;
+    left: 400px;
+    background-color: transparent;
+    border: transparent;
+    flex-direction: row;
+}
+
+button:hover{
+    scale: 1.00;
+    translate: 0 -20px;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+    border-color: blue;
+    font-size: 55px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        font-family: "Jersey 10", sans-serif;
+        background-image: url(Collection.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .img{
+        left: 100px;
+        top: 100px;
+        text-align: center;
+    }
+    
+    form {
+        right: 300px;
+        text-align: center;  
+        width: 325px;
+        height: 170px ;
+    }
+    
+    h1{
+        nav-down: auto;
+        right: 500px;
+        font-weight: bold;
+        color: white;
+        border-color: blue;
+        font-size: 45px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .body {
+        font-family: "Jersey 10", sans-serif;
+        background-image: url(Collection.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .img{
+        position: absolute;
+        left: 990px;
+        top: 550px;
+    }
+    
+    .form{
+        position: absolute;
+        left: 250px;
+        top: 50px;
+        text-align: center;
+    }
+    
+    .h1{
+        font-weight: bold;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
